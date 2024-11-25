@@ -22,7 +22,7 @@ const screenData = {
 
 // 每秒更新一次屏幕信息并显示
 function updateScreenInfo() {
-  screenData.updateScreenInfo(); // 更新时间
+  screenData.updateScreenInfo();
   document.getElementById('screen-info').textContent = screenData.formatScreenInfo(); // 更新屏幕信息显示
 }
 

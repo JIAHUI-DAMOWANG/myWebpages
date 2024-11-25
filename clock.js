@@ -8,7 +8,7 @@ const data = {
   minutes: 0,
   seconds: 0,
   updateTime: function() {
-    const now = new Date(); // 获取当前时间
+    const now = new Date();
     this.year = now.getFullYear();
     this.month = now.getMonth() + 1; // 月份从 0 开始，需要加 1
     this.day = now.getDate();
